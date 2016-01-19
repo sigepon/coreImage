@@ -15,7 +15,7 @@
 		0AF07CAD1C4E37D6006E0B05 /* coreImageAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF07CAC1C4E37D6006E0B05 /* coreImageAppTests.swift */; };
 		0AF07CB81C4E37D6006E0B05 /* coreImageAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF07CB71C4E37D6006E0B05 /* coreImageAppUITests.swift */; };
 		0AF07CC61C4E38B2006E0B05 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF07CC51C4E38B2006E0B05 /* CoreImage.framework */; };
-		0AF07CC81C4E4E31006E0B05 /* sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AF07CC71C4E4E31006E0B05 /* sample.jpg */; };
+		0AF07CCC1C4E56DA006E0B05 /* sample1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AF07CCB1C4E56DA006E0B05 /* sample1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		0AF07CB71C4E37D6006E0B05 /* coreImageAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coreImageAppUITests.swift; sourceTree = "<group>"; };
 		0AF07CB91C4E37D6006E0B05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AF07CC51C4E38B2006E0B05 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
-		0AF07CC71C4E4E31006E0B05 /* sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample.jpg; sourceTree = "<group>"; };
+		0AF07CCB1C4E56DA006E0B05 /* sample1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,7 @@
 		0AF07C961C4E37D6006E0B05 /* coreImageApp */ = {
 			isa = PBXGroup;
 			children = (
-				0AF07CC71C4E4E31006E0B05 /* sample.jpg */,
+				0AF07CCB1C4E56DA006E0B05 /* sample1.jpg */,
 				0AF07C971C4E37D6006E0B05 /* AppDelegate.swift */,
 				0AF07C991C4E37D6006E0B05 /* ViewController.swift */,
 				0AF07C9B1C4E37D6006E0B05 /* Main.storyboard */,
@@ -240,9 +240,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AF07CA21C4E37D6006E0B05 /* LaunchScreen.storyboard in Resources */,
+				0AF07CCC1C4E56DA006E0B05 /* sample1.jpg in Resources */,
 				0AF07C9F1C4E37D6006E0B05 /* Assets.xcassets in Resources */,
 				0AF07C9D1C4E37D6006E0B05 /* Main.storyboard in Resources */,
-				0AF07CC81C4E4E31006E0B05 /* sample.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,6 +493,7 @@
 				0AF07CBE1C4E37D6006E0B05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0AF07CBF1C4E37D6006E0B05 /* Build configuration list for PBXNativeTarget "coreImageAppTests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +502,7 @@
 				0AF07CC11C4E37D6006E0B05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0AF07CC21C4E37D6006E0B05 /* Build configuration list for PBXNativeTarget "coreImageAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +511,7 @@
 				0AF07CC41C4E37D6006E0B05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
